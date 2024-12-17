@@ -36,10 +36,10 @@ export const VisaChecker: React.FC<VisaCheckerProps> = ({ onShowRanking }) => {
       <div className="flex justify-end mb-8">
         <button
           onClick={onShowRanking}
-          className="flex items-center gap-2 text-indigo-600 hover:text-indigo-700"
+          className="flex items-center gap-2 text-indigo-600 hover:text-indigo-700 px-3 py-2 rounded-lg hover:bg-indigo-50 transition-colors"
         >
           <Trophy className="w-5 h-5" />
-          <span className="hidden sm:inline">View Passport Ranking</span>
+          <span>View Passport Ranking</span>
         </button>
       </div>
 
